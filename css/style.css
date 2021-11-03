@@ -8,8 +8,7 @@ body,html{
     background-size: cover;
 }
 
-
-  h1{
+h1{
       font-family: didot;
       font-style: italic;
       color: white;
@@ -21,48 +20,11 @@ body,html{
       letter-spacing: 0.4em;
   }
 
- h2{
-    font-family: didot;
-    font-style: italic;
-    color: white;
-    position: fixed;
-    left: 50%;
-    bottom: 20px;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
-    letter-spacing: 0.4em;
-    font-size: 1.1em;
- }
-
- h3{
-    font-family: didot;
-    font-style: italic;
-    color: white;
-    position: fixed;
-    left: 10%;
-    bottom: 20px;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
-    letter-spacing: 0.4em;
-    font-size: 1.1em;
- }
-
- h4{
-    font-family: didot;
-    font-style: italic;
-    color: white;
-    position: fixed;
-    left: 90%;
-    bottom: 20px;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
-    letter-spacing: 0.4em;
-    font-size: 1.1em;
- }
-
- a {
+a {
     color:white;
 }
 a:link {
    text-decoration: none;
 }
+
+
