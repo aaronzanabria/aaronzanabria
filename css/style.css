@@ -1,4 +1,4 @@
-body,html{
+/* body,html{
     height: 100%;
     margin: 0;
     background-image: url("../images/screen1.jpg");
@@ -6,25 +6,246 @@ body,html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
-h1{
+#title{
       font-family: didot;
       font-style: italic;
-      color: white;
+      color: grey;
       text-align: center;
       position: fixed;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      letter-spacing: 0.4em;
+      letter-spacing: 0.5em;
+      font-size: 25px;
+      padding: 0.75em;
   }
 
-a {
-    color:white;
+#title:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
+#contactButton {
+    font-family: didot;
+    font-style: italic;
+    color: lightgrey;
+    text-align: center;
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 0.2em;
+    font-size: 15px;
+    padding: 0.75em;
+}
+
+#contactButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#joke {
+    font-family: didot;
+    font-style: italic;
+    color: grey;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 0.2em;
+    font-size: 15px;
+    padding: 0.75em;
+}
+
 a:link {
    text-decoration: none;
 }
 
+#form{
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: didot;
+    font-style: italic;
+    color: grey;
+    letter-spacing: 0.2em;
+    font-size: 15px;
+    padding: 0.15em;
+}
 
+#send {
+    background-color: white;
+    border: none;
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: didot;
+    font-style: italic;
+    font-size: 15px;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    padding: 0.25em;
+}
+
+#send:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#message {
+    width: auto;
+    height: 15px;
+    padding: 0.15em;
+    box-sizing: border-box;
+    border: solid lightgrey;
+    border-width: 1px;
+    border-radius: 0px;
+    background-color: white;
+    resize: none;
+    cursor: text;
+    color:grey
+}
+
+#email {
+    background-color: white;
+    border: solid lightgrey;
+    border-width: 1px;
+    color: grey;
+    padding: 0;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: text;
+}
+
+.backHome {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bHa {
+    left: 50%;
+    top: 55%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+#bH1 {
+    left: 10%;
+    top: 95%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+#bH2 {
+    left: 20%;
+    top: 95%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+#bH3 {
+    left: 30%;
+    top: 95%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+#bH4 {
+    left: 40%;
+    top: 95%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+#bH5 {
+    left: 50%;
+    top: 95%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+#bH6 {
+    left: 60%;
+    top: 95%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+#bH7 {
+    left: 70%;
+    top: 95%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+#bH8 {
+    left: 80%;
+    top: 95%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+#bH9 {
+    left: 90%;
+    top: 95%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+.menu {
+    top: 95%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    color: grey;
+    font-family: didot;
+    font-style: italic;
+    font-size: 20px;
+    padding: 0.5em;
+}
+
+.menu:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+#b1 {
+    left: 10%;
+}
+
+#b2 {
+    left: 20%;
+}
+
+#b3 {
+    left: 30%;
+}
+
+#b4 {
+    left: 40%;
+}
+
+#b5 {
+    left: 50%;
+}
+
+#b6 {
+    left: 60%;
+}
+
+#b7 {
+    left: 70%;
+}
+
+#b8 {
+    left: 80%;
+}
+
+#b9 {
+    left: 90%;
+}
