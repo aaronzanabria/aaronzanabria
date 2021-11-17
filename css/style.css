@@ -58,6 +58,21 @@
     padding: 0.75em;
 }
 
+#aboutText {
+    font-family: didot;
+    font-style: normal;
+    color: grey;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 0.2em;
+    font-size: 15px;
+    padding: 0.75em;
+}
+
+
 a:link {
    text-decoration: none;
 }
@@ -128,7 +143,7 @@ a:link {
 
 #bHa {
     left: 50%;
-    top: 55%;
+    top: 60%;
     position: fixed;
     transform: translate(-50%, -50%);
 }
@@ -249,3 +264,10 @@ a:link {
 #b9 {
     left: 90%;
 }
+
+/* #p1v {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
