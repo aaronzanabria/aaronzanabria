@@ -1,6 +1,4 @@
-div.a {
-    text-align: center;
-}
+div.a {text-align: center;}
 
 .row {
   display: flex;
@@ -31,29 +29,50 @@ div.a {
     max-width: 100%;
   }
 }
-
-.sp22 {
-    float: left;
-    width: 33%;
-  }  
-.full {
-    float: left;
-    width: 100%;
-  }  
-
 a:link {
     color: black;
-  }
+}
   /* visited link */
 a:visited {
     color: black;
-  }
+}
   /* mouse over link */
 a:hover {
     color: black;
-  }
+}
   /* selected link */
 a:active {
     color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.left {
+  background-color: #2196F3;
+  padding: 20px;
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  background-color: #f1f1f1;
+  padding: 20px;
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
+
+.right {
+  background-color: #04AA6D;
+  padding: 20px;
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
- 
+}
