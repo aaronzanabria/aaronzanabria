@@ -1,37 +1,59 @@
 div.a {
     text-align: center;
 }
-.column {
-    float: left;
-    width: 50%;
-  }  
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+@media screen {
+  .column1 {
+    flex: 25%;
+    max-width: 25%;
   }
-  .sp22 {
+}
+@media screen and (max-width: 600px) {
+  .column1 {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+@media screen {
+  .column2 {
+    flex: 33%;
+    max-width: 33%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column2 {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.sp22 {
     float: left;
     width: 33%;
   }  
-  .full {
+.full {
     float: left;
     width: 100%;
   }  
 
-  a:link {
+a:link {
     color: black;
   }
   /* visited link */
-  a:visited {
+a:visited {
     color: black;
   }
   /* mouse over link */
-  a:hover {
+a:hover {
     color: black;
   }
   /* selected link */
-  a:active {
+a:active {
     color: black;
   }
  
