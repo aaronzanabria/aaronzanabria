@@ -66,10 +66,12 @@ p.small {
   font-family: 'Courier New', Courier, monospace;
   font-variant:small-caps;
   text-align: center;
+  font-size: ;
 }
 p.small2 {
   font-family: 'Courier New', Courier, monospace;
   font-variant:small-caps;
   text-align: center;
   padding-bottom: 20px;
+  font-size: 1em;
 }
